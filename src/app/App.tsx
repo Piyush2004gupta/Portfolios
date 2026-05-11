@@ -9,6 +9,7 @@ import { Contact } from './components/Contact';
 import { SocialLinks } from './components/SocialLinks';
 import { Footer } from './components/Footer';
 import { Toaster } from './components/ui/sonner';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <SocialLinks />
       <Footer />
       <Toaster />
+      <Analytics />
     </div>
   );
 }
